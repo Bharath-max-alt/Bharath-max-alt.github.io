@@ -1,0 +1,140 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #333;
+}
+
+header {
+    background: #444;
+    padding: 10px 0;
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f4;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.hero .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 5px solid #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #444;
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.title-blue { color: #1e90ff; }
+.title-green { color: #32cd32; }
+.title-purple { color: #8a2be2; }
+.title-orange { color: #ff8c00; }
+.title-teal { color: #20b2aa; }
+.title-red { color: #ff4500; }
+
+.dark-bg {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+    background: #555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #f4f4f4;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
